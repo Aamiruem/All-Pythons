@@ -1,4 +1,7 @@
 import cv2
+import numpy as np
+import matplotlib.pyplot as plt
+import os
 
 #Loading The Cascade File
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')

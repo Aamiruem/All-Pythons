@@ -1,7 +1,7 @@
 # n! = 1 * 2 * 3 * 4...*n
 # n! = [1 * 2 * 3 * 4... n-1] *n
-# n! = n * (n-1)! 
-
+# n! = n * (n-1)!
+#
 # n = 0
 # product = 1
 # for i in range(n):
@@ -20,6 +20,6 @@ def factorial_recursive(n):
     return n * factorial_recursive(n-1)
 
 # f = factorial_iter(5)
-f = factorial_recursive(0)
+f = factorial_recursive(7)
 print(f)
 
