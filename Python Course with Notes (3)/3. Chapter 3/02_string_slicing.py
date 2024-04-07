@@ -15,7 +15,9 @@ print(name[1:]) # is same as name[1:5]
 c = name[-4:-1] # is same is name[1:4]
 print(c)
 
-name1 = "HarryIsGood"
+name1 = "AamirIsGood"
 d = name[0::3]
+d = name[1:4:1]
+d = name[1:4:2]
 d1: str = name[:0:-1]
 print(d)

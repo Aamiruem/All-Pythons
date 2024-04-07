@@ -64,4 +64,11 @@ print(type(age2))  # <class'float'>
 # from yield
 # global and as pass
 # if not
-# import classes 
+# import classes
+
+
+name = "Aamir"
+age = 22
+price = 25.99
+print("my name is : ", name)
+print("my age is ", age)
